@@ -1,1 +1,1 @@
-image::image.png[tag, 400, 400]
+image::image.png[tag, 425, 720]
