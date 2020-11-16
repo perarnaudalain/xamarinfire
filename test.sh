@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 echo "alain"
-./gradlew tasks
+echo $APPCENTER_SOURCE_DIRECTORY
+$APPCENTER_SOURCE_DIRECTORY/gradlew tasks
