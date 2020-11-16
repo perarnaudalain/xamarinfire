@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+    }
+}
+
+plugins {
+    id 'org.ajoberstar.grgit' version '3.0.0'
+}
+
+def gitCommitCount = grgit.log().size()
+
+def buildDate = new Date().format('yyyyMMdd');
+def appOutName = 'MaFormation';
+
+version = "2.2";
+ext {
+    fixVersion = "0";
+}
+
+project.ext {
+    androidVersionCode = gitCommitCount
+    iosVersionCode = "${version}.${gitCommitCount}"
+    debugVersionName = "${version}.${fixVersion} (${gitCommitCount})"
+    versionName = "${version}.${fixVersion}"
+    outputPackageName = "${buildDate}_${appOutName}_v${version}.${fixVersion}(${gitCommitCount})"
+
+    environmentConstants = [
+        template: 'res/templates/EnvironmentConstants.cs',
+        dest: 'PoleEmploi.Formations.Configuration/Sources/Constants/'
+    ]
+}
