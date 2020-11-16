@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{7A09B45B-5E5A-4951-A666-617F8A770998}|Default">
+  <MonoDevelop.Ide.ItemProperties.xamarinfire.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A05D4600-4677-4E9D-825E-74E3D374E84D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.xamarinfire.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="1" />
+      <File FileName="iOS/Main.cs" />
+      <File FileName="Droid/MainActivity.cs" />
+      <File FileName="Droid/obj/Debug/android/manifest/AndroidManifest.xml" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Aapt2.targets" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="xamarinfire/App.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xamarinfire" expanded="True">
+            <Node name="xamarinfire" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="xamarinfire.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
